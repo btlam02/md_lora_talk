@@ -1,0 +1,50 @@
+# Thông tin cấu hình và môi trường cục bộ
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+env/
+ENV/
+
+# Python bytecode, test và công cụ kiểm tra chất lượng mã
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# Jupyter, IDE và hệ điều hành
+.ipynb_checkpoints/
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Dữ liệu, checkpoint và kết quả sinh ra khi huấn luyện/inference
+/checkpoints/
+/outputs/
+/runs/
+/logs/
+/tensorboard/
+/data/
+/datasets_cache/
+*.ckpt
+*.pth
+*.pt
+*.onnx
+
+# IP-LAP được cấu hình/cài đặt riêng ở máy cục bộ hoặc quản lý bằng submodule.
+/third_party/IP_LAP/
+
+# File tiến trình, log và tệp tạm
+*.pid
+*.log
+*.tmp
+*.bak
